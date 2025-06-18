@@ -23,12 +23,21 @@ Key analytical components include:
 ├── environment.yml             # Conda environment setup
 ├── .gitignore
 │
-├── LINCS_AUC/                  # Drug response analysis via LINCS & AUC
-├── trajectory_analysis/        # Monocle3 pseudotime and gene trends
-├── rnaseq_velocity/            # RNA velocity analysis
-├── cell_communication/         # CellChat signaling analysis
-├── scenic_tf/                  # SCENIC transcription factor activity
-├── cut_tag/                    # CUT&Tag integration & correlation
-├── functional_enrichment/      # MAGMA, KEGG metabolism
-├── dimensionality_reduction/   # UMAP and dimensionality projection
+├── Neutrophil/                 # All neutrophil-specific analyses
+│   ├── LINCS_AUC/              # Drug response via LINCS & AUC
+│   ├── trajectory_analysis/    # Monocle3 pseudotime and gene trends
+│   ├── rnaseq_velocity/        # RNA velocity analysis
+│   ├── cell_communication/     # CellChat signaling analysis
+│   ├── scenic_tf/              # SCENIC transcription factor activity
+│   ├── cut_tag/                # CUT&Tag integration & correlation
+│   ├── functional_enrichment/  # MAGMA, KEGG metabolism
+│   ├── deg_hvg/                # HVG and DE gene identification
+│   └── clustering/             # UMAP projection and clustering
+│
+├── WholeBlood/                 # Whole blood single-cell analysis
+│   ├── clustering/             # UMAP projection, clustering, immune landscape
+│   ├── sample_comparison/      # Group-based comparison and proportions
+│   ├── gene_modules/           # Global ISG & inflammatory modules
+│   └── quality_control/        # QC, doublet removal, filtering steps
+│
 └── data/                       # Placeholder for processed data or metadata
