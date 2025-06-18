@@ -15,3 +15,20 @@ Key analytical components include:
 - Metabolism post-GWAS analysis and functional enrichment (MAGMA, KEGG)
 - Cell-cell communication (CellChat)
 - LINCS-based druggability analysis
+
+## 📁 Repository Structure
+
+```bash
+├── README.md
+├── environment.yml             # Conda environment setup
+├── .gitignore
+│
+├── LINCS_AUC/                  # Drug response analysis via LINCS & AUC
+├── trajectory_analysis/        # Monocle3 pseudotime and gene trends
+├── rnaseq_velocity/            # RNA velocity analysis
+├── cell_communication/         # CellChat signaling analysis
+├── scenic_tf/                  # SCENIC transcription factor activity
+├── cut_tag/                    # CUT&Tag integration & correlation
+├── functional_enrichment/      # MAGMA, KEGG metabolism
+├── dimensionality_reduction/   # UMAP and dimensionality projection
+└── data/                       # Placeholder for processed data or metadata
