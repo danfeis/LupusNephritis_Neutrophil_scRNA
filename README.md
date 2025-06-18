@@ -47,12 +47,12 @@ Key analytical components include:
 
 This project uses different Conda environments for R and Python components.
 
-- R 4.2: Used for Seurat and SCENIC analysis → `environment_r42.yml`
-- R 4.0: Used for Monocle3 and CellChat analysis → `environment_r40.yml`
+- R 4.1: Used for Seurat, SCENIC, Monocle3 and CellChat analysis → `environment_r41.yml`
+- R 4.2: Used for CUT&Tag ananotation → `environment_r42.yml`
 
 Create and activate environments as needed:
 
 ```bash
-conda env create -f environment_r42.yml
-conda activate r42_env
+conda env create -f environment_r41.yml
+conda activate r41_env
 ```
