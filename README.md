@@ -41,3 +41,17 @@ Key analytical components include:
 │   └── quality_control/        # QC, doublet removal, filtering steps
 │
 └── data/                       # Placeholder for processed data or metadata
+
+## 🔧 Environments
+
+This project uses different Conda environments for R and Python components.
+
+- R 4.2: Used for Seurat and SCENIC analysis → `environment_r42.yml`
+- R 4.0: Used for Monocle3 and CellChat analysis → `environment_r40.yml`
+- Python 3.8: Used for Scanpy, LINCS processing → `environment_py38.yml`
+
+Create and activate environments as needed:
+
+```bash
+conda env create -f environment_r42.yml
+conda activate r42_env
