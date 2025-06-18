@@ -4,7 +4,7 @@ This repository contains code and analysis from the project **"Single-cell profi
 
 ## 🔬 Project Overview
 
-Systemic lupus erythematosus (SLE) and its severe renal manifestation, lupus nephritis (LN), involve complex immune dysregulation. This project leverages single-cell RNA sequencing (scRNA-seq) to uncover transcriptional heterogeneity, metabolic states, and druggable features of neutrophils during LN progression in a murine model.
+Systemic lupus erythematosus (SLE) and its severe renal manifestation, lupus nephritis (LN), involve complex immune dysregulation. This project leverages single-cell RNA sequencing (scRNA-seq) to uncover transcriptional heterogeneity, ISGs, metabolism, and druggable features of neutrophils during LN progression in a murine model.
 
 Key analytical components include:
 - Cell clustering and annotation
