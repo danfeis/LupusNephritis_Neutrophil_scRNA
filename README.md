@@ -23,7 +23,7 @@ Key analytical components include:
 ├── environment.yml             # Conda environment setup
 ├── .gitignore
 │
-├── Neutrophil/                 # All neutrophil-specific analyses
+├── neutrophil/                 # All neutrophil-specific analyses
 │   ├── LINCS_AUC/              # Drug response via LINCS & AUC
 │   ├── trajectory_analysis/    # Monocle3 pseudotime and gene trends
 │   ├── rnaseq_velocity/        # RNA velocity analysis
@@ -34,7 +34,7 @@ Key analytical components include:
 │   ├── deg_hvg/                # HVG and DE gene identification
 │   └── clustering/             # UMAP projection and clustering
 │
-├── WholeBlood/                 # Whole blood single-cell analysis
+├── wholeblood/                 # Whole blood single-cell analysis
 │   ├── clustering/             # UMAP projection, clustering, immune landscape
 │   ├── sample_comparison/      # Group-based comparison and proportions
 │   ├── gene_modules/           # Global ISG & inflammatory modules
