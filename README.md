@@ -1,6 +1,6 @@
 # LupusNephritis_Neutrophil_scRNA
 
-This repository contains code and analysis from the project **"Single-cell profiling of neutrophil heterogeneity in transcriptomics and immunometabolism underlying murine lupus nephritis progression reveals potential treatments."** The work was conducted as part of Lupus Nephritis studies from Xin Sheng's lab, Liangzhu laboratory, Zhejiang University.
+This repository contains code and analysis from the project **"Single-cell profiling of neutrophil heterogeneity in transcriptomics and immunometabolism underlying murine lupus nephritis progression reveals potential treatments."** The work was conducted as part of Lupus Nephritis multi-omics studies from Xin Sheng's lab, Liangzhu laboratory, Zhejiang University.
 
 ## 🔬 Project Overview
 
