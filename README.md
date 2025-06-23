@@ -1,10 +1,10 @@
 # LupusNephritis_Neutrophil_scRNA
 
-This repository contains code and analysis from the project **"Single-cell profiling of neutrophil heterogeneity in transcriptomics and immunometabolism underlying murine lupus nephritis progression reveals potential treatments."** The work was conducted as part of **Lupus Nephritis** studies from Xin Sheng's lab from Liangzhu laboratory, Zhejiang University.
+This repository contains code and analysis from the project **"Single-cell profiling of neutrophil heterogeneity in transcriptomics and immunometabolism underlying murine lupus nephritis progression reveals potential treatments."** The work was conducted as part of Lupus Nephritis multi-omics studies from Xin Sheng's lab, Liangzhu laboratory, Zhejiang University.
 
 ## 🔬 Project Overview
 
-Systemic lupus erythematosus (SLE) and its severe renal manifestation, lupus nephritis (LN), involve complex immune dysregulation. This project leverages single-cell RNA sequencing (scRNA-seq) to uncover transcriptional heterogeneity, ISGs, metabolism, and druggable features of neutrophils during LN progression in a murine model.
+Systemic lupus erythematosus (SLE) and its severe renal manifestation, lupus nephritis (LN), involve complex immune dysregulation. This project leverages whole blood single-cell RNA sequencing (scRNA-seq) to uncover transcriptional heterogeneity, ISGs, metabolism, and druggable features of **neutrophils** during LN progression in a murine model.
 
 Key analytical components include:
 - Cell clustering and annotation
@@ -23,7 +23,7 @@ Key analytical components include:
 ├── environment.yml             # Conda environment setup
 ├── .gitignore
 │
-├── Neutrophil/                 # All neutrophil-specific analyses
+├── neutrophil/                 # All neutrophil-specific analyses
 │   ├── LINCS_AUC/              # Drug response via LINCS & AUC
 │   ├── trajectory_analysis/    # Monocle3 pseudotime and gene trends
 │   ├── rnaseq_velocity/        # RNA velocity analysis
@@ -34,7 +34,7 @@ Key analytical components include:
 │   ├── deg_hvg/                # HVG and DE gene identification
 │   └── clustering/             # UMAP projection and clustering
 │
-├── WholeBlood/                 # Whole blood single-cell analysis
+├── wholeblood/                 # Whole blood single-cell analysis
 │   ├── clustering/             # UMAP projection, clustering, immune landscape
 │   ├── sample_comparison/      # Group-based comparison and proportions
 │   ├── gene_modules/           # Global ISG & inflammatory modules
