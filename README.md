@@ -40,6 +40,9 @@ Key analytical components include:
 │   ├── gene_modules/           # Global ISG & inflammatory modules
 │   └── quality_control/        # QC, doublet removal, filtering steps
 │
+├── SCENIC/                     # Global SCENIC regulon analysis on whole blood cell
+│   ├── SCENIC_TFTarget_unique.tsv     # SCENIC inferred TF, Targets, Target Coefficient
+│
 └── data/                       # Placeholder for processed data or metadata
 ```
 
